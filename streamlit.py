@@ -1,8 +1,6 @@
 import os
 os.system("""
-python3 -m venv ~/.streamlit_ve
-source ~/.streamlit_ve/bin/activate
-pip install -r scipy altair numpy pandas
+pip install -r requirements.txt
 """)
 
 # from turtle import color, width
