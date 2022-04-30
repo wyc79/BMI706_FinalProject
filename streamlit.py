@@ -1,5 +1,9 @@
 import os
-os.system('conda install -r scipy altair numpy pandas')
+os.system("""
+python3 -m venv ~/.streamlit_ve
+source ~/.streamlit_ve/bin/activate
+pip install -r scipy altair numpy pandas
+""")
 
 # from turtle import color, width
 from scipy import stats
