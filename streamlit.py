@@ -30,6 +30,7 @@ def instruction_call():
     st.write("*Apr. 24th, 2022*")
     st.write("This product is made possible by April Yan, Ivan Gu, Marie Zhang, and Yuanchen Wang.")
     st.write("Select any visualization in the drop-down list on the sidebar to view content.")
+    st.write(os.system("pip freeze"))
     st.sidebar.success("Choose any visualization to view content.")
     return
 
